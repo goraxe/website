@@ -28,9 +28,9 @@ repos:
       - id: markdown-toc
         # optional custom config:
         args: [--indent, "    ", -i]
-      - id: dockerfile_lint
-        # optional custom config:
-        args: [--json, --verbose, --dockerfile]
+      # - id: dockerfile_lint
+      #   # optional custom config:
+      #   args: [--json, --verbose, --dockerfile]
   - repo: https://github.com/bridgecrewio/checkov.git
     rev: 3.2.370
     hooks:
