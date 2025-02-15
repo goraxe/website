@@ -13,8 +13,10 @@ RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER
 COPY ./ /site
 WORKDIR /site
 
-RUN ["go", "mod", "download"]
-RUN ["hugo", "--buildDrafts", "--destination", "./output"]
+RUN <<EOT
+go mod download
+hugo --buildDrafts --destination ./output
+EOT
 
 FROM nginx:1.27.3-alpine-otel
 
