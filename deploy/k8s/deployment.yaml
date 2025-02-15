@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: website
+  labels:
+    app: website
+    app.kubernetes.io/name: website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: website
+  template:
+    metadata:
+      labels:
+        app: website
+    spec:
+      containers:
+        - name: nginx
+          image: ghcr.io/goraxe/website
+          ports:
+            - containerPort: 8080
+      serviceAccountName: website
