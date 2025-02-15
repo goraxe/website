@@ -1,0 +1,21 @@
+baseURL = 'https://www.goraxe.me.uk'
+languageCode = 'en-us'
+title = 'Goraxe Personal Site'
+
+SectionPagesMenu = "main"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+enableRobotsTXT = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  recent_posts_number = 5
+  description = "Goraxe Personal Site"
+
+[[params.anake_socials]]
+ name = "github"
+ url = "https://github.com/goraxe"

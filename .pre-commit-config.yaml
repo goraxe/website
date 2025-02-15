@@ -2,20 +2,20 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v5.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-added-large-files
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
-    rev: v9.5.0
+    rev: v9.20.0
     hooks:
       - id: commitlint
         stages: [commit-msg]
         additional_dependencies: ["conventional-changelog"]
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 37.49.3
+    rev: 39.170.1
     hooks:
       - id: renovate-config-validator
   - repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
@@ -32,7 +32,7 @@ repos:
         # optional custom config:
         args: [--json, --verbose, --dockerfile]
   - repo: https://github.com/bridgecrewio/checkov.git
-    rev: 3.0.24
+    rev: 3.2.370
     hooks:
       - id: checkov
         args: [-d .]
@@ -42,7 +42,7 @@ repos:
       - id: k8svalidate
         files: .yaml$
   - repo: https://github.com/Yelp/detect-secrets
-    rev: v1.4.0
+    rev: v1.5.0
     hooks:
       - id: detect-secrets
         exclude: pnpm-lock.yaml
