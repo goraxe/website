@@ -15,7 +15,7 @@ WORKDIR /site
 
 RUN ["hugo", "--buildDrafts", "--destination", "./output"]
 
-FROM nginx:alpine
+FROM nginx:1.27.3-alpine-otel
 
 COPY --from=build /site/output /usr/share/nginx/html
 
