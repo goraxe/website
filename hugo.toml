@@ -8,14 +8,14 @@ enableRobotsTXT = true
 
 
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
 
 [params]
-  recent_posts_number = 5
-  description = "Goraxe Personal Site"
+recent_posts_number = 5
+description = "Goraxe Personal Site"
 
 [[params.anake_socials]]
- name = "github"
- url = "https://github.com/goraxe"
+name = "github"
+url = "https://github.com/goraxe"
