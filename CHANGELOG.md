@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/goraxe/website/compare/v1.0.0...v1.1.0) (2025-02-15)
+
+
+### Features
+
+* **deploy:** add deployment manifests ([e5f7f37](https://github.com/goraxe/website/commit/e5f7f37a394b4154369337878289fc982232ff60))
+
 # 1.0.0 (2025-02-15)
 
 
