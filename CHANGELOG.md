@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/goraxe/website/compare/v1.1.0...v1.1.1) (2025-02-15)
+
+
+### Bug Fixes
+
+* **cd:** run release in prepare ([e4edd5e](https://github.com/goraxe/website/commit/e4edd5e1a4adeb16fc63a56b07afc06280008101))
+
 # [1.1.0](https://github.com/goraxe/website/compare/v1.0.0...v1.1.0) (2025-02-15)
 
 
