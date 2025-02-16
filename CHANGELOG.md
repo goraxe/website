@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/goraxe/website/compare/v1.1.3...v1.1.4) (2025-02-16)
+
+
+### Bug Fixes
+
+* **deploy:** use correct cert signer ([7d85d18](https://github.com/goraxe/website/commit/7d85d183678c8ea03ca01ed6f51a55631ff678fa))
+
 ## [1.1.3](https://github.com/goraxe/website/compare/v1.1.2...v1.1.3) (2025-02-16)
 
 

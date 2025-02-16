@@ -9,7 +9,7 @@ kind: Kustomization
 images:
 - name: ghcr.io/goraxe/portal
   newName: ghcr.io/goraxe/portal
-  newTag: 1.1.3
+  newTag: 1.1.4
 - name: ghcr.io/goraxe/website
   newName: ghcr.io/goraxe/website
   newTag: 1.0.0
