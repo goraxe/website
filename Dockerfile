@@ -13,7 +13,7 @@ go mod download
 hugo --buildDrafts --destination ./output
 EOT
 
-FROM nginx:1.27.3-alpine-otel
+FROM nginx:1.27.4-alpine-otel
 
 COPY --from=build /site/output /usr/share/nginx/html
 
