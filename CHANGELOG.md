@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/goraxe/website/compare/v1.1.2...v1.1.3) (2025-02-16)
+
+
+### Bug Fixes
+
+* **deploy:** use correct ports ([ff688bf](https://github.com/goraxe/website/commit/ff688bfc519018ed7f081472ad74f890ad9b1a32))
+
 ## [1.1.2](https://github.com/goraxe/website/compare/v1.1.1...v1.1.2) (2025-02-15)
 
 
