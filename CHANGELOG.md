@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/goraxe/website/compare/v1.1.1...v1.1.2) (2025-02-15)
+
+
+### Bug Fixes
+
+* **deploy:** set website correctly ([53f6d00](https://github.com/goraxe/website/commit/53f6d00c2c36aab926333c8fd68f2054f284e2af))
+
 ## [1.1.1](https://github.com/goraxe/website/compare/v1.1.0...v1.1.1) (2025-02-15)
 
 
