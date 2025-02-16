@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   annotations:
-    cert-manager.io/cluster-issuer: cluster-ca
+    cert-manager.io/cluster-issuer: vultr-letsencrypt
     kubernetes.io/ingress.class: nginx-vultr
   labels:
     app: website
